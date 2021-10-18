@@ -1,0 +1,11 @@
+.signout-button{
+
+
+}
+.signout-button button {
+    width: 200px;
+    height: 30px;
+    background-color: beige;
+    margin-top: 100px;
+    margin-left: 100px;
+}

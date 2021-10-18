@@ -1,0 +1,48 @@
+.movie-page{
+    height: calc(100vh - 10vh);
+    position: relative;
+}
+.movie-page-poster{
+    height: 100%;
+    width: 100%
+}
+.movie-page-poster img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+}
+.movie-page-details{
+    position: absolute;
+    top: 0px;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.movie-trailer{
+    height: 65%;
+}
+
+.movie-trailer div{
+   height: 100%;
+}
+
+.reviews {
+    margin: 10px;
+}
+.reviews textarea {
+    width: 250px;
+    min-height: 35px;
+    overflow-y: hidden;
+} 
+.reviews input[type="submit"] {
+    width: 200px;
+    background-color: floralwhite;
+    border: navajowhite;
+    text-align: center;
+    padding: 1px;
+}
